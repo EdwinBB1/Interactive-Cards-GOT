@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Personajes de Westeros</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <nav>
+                <h1>Personajes de Westeros</h1>
+                <button id="toggle-theme">🌙 Modo Oscuro</button>
+            </nav>
+        </header>
+
+        <main>
+            <section id="personajes">
+                <div class="card">
+                    <img src="https://www.nacionflix.com/img/2022/04/18/game-of-thrones-daenerys.jpg?__scale=w:1200,h:900,t:2" alt="Daenerys Targaryen" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Daenerys Targaryen</h3>
+                      <p>Casa Targaryen</p>
+                      <p>"I am not your little princess."</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img src="https://preview.redd.it/iw3inkgg9wac1.jpeg?auto=webp&s=212cd6a77e0b184dca41e8049093c0ab087f69bb" alt="Jon Snow" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Jon Snow</h3>
+                      <p>Casa Stark (por crianza)</p>
+                      <p>"The things I do for love."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://static.tvtropes.org/pmwiki/pub/images/got_tyrion_lannister.png" alt="Tyrion Lannister" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Tyrion Lannister</h3>
+                      <p>Casa Lannister</p>
+                      <p>"I drink and I know things."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://preview.redd.it/cersei-lannister-v0-v1h210fczpfc1.jpg?width=640&crop=smart&auto=webp&s=067919ac18cada7edb191dc3335e5d92b285012d" alt="Cersei Lannister" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Cersei Lannister</h3>
+                      <p>Casa Lannister</p>
+                      <p>"Power is power."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_vN_ANOiFu84OseD9ywZ8jLvlKhu5Ee6CBg&s" alt="Arya Stark" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Arya Stark</h3>
+                      <p>Casa Stark</p>
+                      <p>"A girl has no name."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://lossietereinos.com/wp-content/uploads/2019/05/sansa-corona.jpg" alt="Sansa Stark" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Sansa Stark</h3>
+                      <p>Casa Stark</p>
+                      <p>"I’m a slow learner, but I learn."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/juego-de-tronos-bran-stark-actor-1558273605.jpg" alt="Bran Stark" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Bran Stark</h3>
+                      <p>Casa Stark</p>
+                      <p>"I can never be lord of anything."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://pm1.aminoapps.com/6315/d41f7aa78eaabb9a037bf9f8a7876cb0ef40cf41_00.jpg" alt="Brienne of Tarth" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Brienne of Tarth</h3>
+                      <p>Casa Tarth</p>
+                      <p>"Nothing’s more hateful than failing to protect the one you love."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2017/07/jorah-mormont.jpg?tf=3840x" alt="Jorah Mormont" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Jorah Mormont</h3>
+                      <p>Casa Mormont</p>
+                      <p>"There’s a beast in every man."</p>
+                    </div>
+                  </div>
+                  
+                  <div class="card">
+                    <img src="https://pm1.aminoapps.com/6299/6d58a4dc3153ba9661737d48472c761e61ab05b2_00.jpg" alt="Sandor Clegane" width="50" height="60">
+                    <div class="card-content">
+                      <h3>Sandor Clegane</h3>
+                      <p>Apodado “El Perro”</p>
+                      <p>"I understand that if any more words come pouring out your mouth, I’m gonna have to eat every chicken in this room."</p>
+                    </div>
+                  </div>                   
+            </section>
+        </main>
+
+        <footer>
+            <p>Creado por Edwin_BB</p>
+        </footer>
+
+        <div id="modal" class="modal hidden">
+            <div class="modal-content">
+              <span id="close-btn" class="close-btn">&times;</span>
+              <h2 id="modal-name"></h2>
+              <p id="modal-house"></p>
+              <p id="modal-quote"></p>
+            </div>
+          </div>   
+
+          <script src="script.js"></script>
+    </body>   
+</html>
